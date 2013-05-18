@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aceptar_Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="Indice_Actividadfisicaligera" xml:space="preserve">
+    <value>Light physical activity</value>
+  </data>
+  <data name="Indice_ActividadfisicaMedia" xml:space="preserve">
+    <value>moderate physical activity</value>
+  </data>
+  <data name="Altura_Text" xml:space="preserve">
+    <value>Tall</value>
+  </data>
+  <data name="A_MenorNormal" xml:space="preserve">
+    <value>Less than normal</value>
+  </data>
+  <data name="B_Normal" xml:space="preserve">
+    <value>Normal weight</value>
+  </data>
+  <data name="C_Sobrepeso" xml:space="preserve">
+    <value>Overweight</value>
+  </data>
+  <data name="D_ObesidadTipo1" xml:space="preserve">
+    <value>Obesity type 1</value>
+  </data>
+  <data name="Edad_Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Exit_Ques" xml:space="preserve">
+    <value>Are you sure you want to exit?</value>
+  </data>
+  <data name="Exit_Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="E_ObesidadTipo2" xml:space="preserve">
+    <value>Obesity type 2</value>
+  </data>
+  <data name="F_ObesidadTipo3" xml:space="preserve">
+    <value>Obesity type 3</value>
+  </data>
+  <data name="Hombre_Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="IMC_Text" xml:space="preserve">
+    <value>BMI</value>
+  </data>
+  <data name="IndiceActividad_Text" xml:space="preserve">
+    <value>Activity Index</value>
+  </data>
+  <data name="IndiceDeGrasa_Text" xml:space="preserve">
+    <value>Body Fat</value>
+  </data>
+  <data name="kcaldia_Text" xml:space="preserve">
+    <value>Kcal/day Recommended</value>
+  </data>
+  <data name="Mujer_Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Indice_Personaextremadamenteactiva" xml:space="preserve">
+    <value>Extremely activity</value>
+  </data>
+  <data name="Indice_Personamuyactiva" xml:space="preserve">
+    <value>Very active</value>
+  </data>
+  <data name="Indice_PersonaSedentaria" xml:space="preserve">
+    <value>Sedentary</value>
+  </data>
+  <data name="PesoIdeal_Text" xml:space="preserve">
+    <value>ideal weight</value>
+  </data>
+  <data name="Peso_Text" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Resultados_Text" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="TasaMetabolicaP1_Text" xml:space="preserve">
+    <value>Kcal/day recommended  for the data provided by the user</value>
+  </data>
+  <data name="TasaMetabolica_Text" xml:space="preserve">
+    <value>Metabolic rate</value>
+  </data>
+  <data name="TipoPeso_Text" xml:space="preserve">
+    <value>Kind Weight</value>
+  </data>
+  <data name="TuPesoIdeal_Text" xml:space="preserve">
+    <value>Your Ideal Weight</value>
+  </data>
+  <data name="Datos" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Genero_Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="CompleteInformacion" xml:space="preserve">
+    <value>Please, complete all information requested, thanks</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>The information provided by this program are only indicative, in no case be taken into account without consulting a medical professional.</value>
+  </data>
+  <data name="About_Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="CheckApplications_Text" xml:space="preserve">
+    <value>Check out my others apps and games</value>
+  </data>
+  <data name="Rate_Text" xml:space="preserve">
+    <value>Rate this app</value>
+  </data>
+  <data name="ExistingUser_Text" xml:space="preserve">
+    <value>Existing User</value>
+  </data>
+  <data name="NewUser_Text" xml:space="preserve">
+    <value>New User</value>
+  </data>
+  <data name="Or_Text" xml:space="preserve">
+    <value>Save this data for other user</value>
+  </data>
+  <data name="SaveData_Text" xml:space="preserve">
+    <value>Save to ...</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Users_Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="UsersUpdate_Text" xml:space="preserve">
+    <value>Update User</value>
+  </data>
+  <data name="EliminarCaptionText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="EliminarMessageBoxText" xml:space="preserve">
+    <value>Click OK to delete selected entry</value>
+  </data>
+  <data name="EliminarNoSelected" xml:space="preserve">
+    <value>To remove an entry select it from the list</value>
+  </data>
+  <data name="EditarUserNoSelected" xml:space="preserve">
+    <value>To edit  an entry  select it from the list</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="DataSaved" xml:space="preserve">
+    <value>The data has been saved successfully</value>
+  </data>
+  <data name="DataUser_Text" xml:space="preserve">
+    <value>User Data</value>
+  </data>
+  <data name="Detalles_Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Home_Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="VerGraficos" xml:space="preserve">
+    <value>To see the graph rotate the phone</value>
+  </data>
+  <data name="Fecha_Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Back_Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Cancelar_Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="loadData_Text" xml:space="preserve">
+    <value>load the latest data from a user</value>
+  </data>
+  <data name="NoDataAviable" xml:space="preserve">
+    <value>No data available</value>
+  </data>
+  <data name="PesoIdealMaximo_Text" xml:space="preserve">
+    <value>Maximun weight for your height</value>
+  </data>
+  <data name="PesoIdealMinimo_Text" xml:space="preserve">
+    <value>Minimum weight for your height</value>
+  </data>
+  <data name="Add_Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>Remember that these data are approximate, and that the ideal weight varies with the complexion of the person and always consult a doctor with any questions.</value>
+  </data>
+</root>

@@ -1,0 +1,86 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="PesoIdeal.DataUserGraphics"
+     OrientationChanged="PhoneApplicationPage_OrientationChanged"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="480"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Landscape"
+    shell:SystemTray.IsVisible="false"
+    xmlns:amq="clr-namespace:AmCharts.Windows.QuickCharts;assembly=AmCharts.Windows.QuickCharts.WP"
+    >
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Margin="0,0,0,0" >
+        <Grid.Background>
+            <ImageBrush ImageSource="images/back2.jpg"  />
+        </Grid.Background>
+        <!--Pivot Control-->
+        <controls:Pivot Title="">
+            <!--Pivot item one-->
+            <controls:PivotItem Header="{Binding Path=Resources.Peso_Text, Source={StaticResource Resource}}">
+                <Grid>
+                    <amq:SerialChart  x:Name="chart1"     DataSource="{Binding Data}"  CategoryValueMemberPath="Fecha"
+                         AxisForeground="White"
+                         PlotAreaBackground="Transparent"
+                         GridStroke="DarkGray" >
+                        <amq:SerialChart.Graphs>
+
+                            <amq:AreaGraph   ValueMemberPath="Peso"  Title="{Binding Path=Resources.Peso_Text, Source={StaticResource Resource}}" Brush="#80325a83" />
+                        </amq:SerialChart.Graphs>
+                    </amq:SerialChart>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Pivot item two-->
+            <controls:PivotItem Header="{Binding Path=Resources.IMC_Text, Source={StaticResource Resource}}">
+                <Grid>
+                    <amq:SerialChart  x:Name="chart2"     DataSource="{Binding DataIMC}"  CategoryValueMemberPath="Fecha"
+                         AxisForeground="White"
+                         PlotAreaBackground="Transparent"
+                         GridStroke="DarkGray"  >
+                        <amq:SerialChart.Graphs>
+
+                            <amq:AreaGraph   ValueMemberPath="IMC"  Title="{Binding Path=Resources.IMC_Text, Source={StaticResource Resource}}" Brush="#8001DF01" />
+                        </amq:SerialChart.Graphs>
+                    </amq:SerialChart>
+                </Grid>
+            </controls:PivotItem>
+
+            <controls:PivotItem Header="{Binding Path=Resources.IndiceDeGrasa_Text, Source={StaticResource Resource}}">
+                <Grid>
+                    <amq:SerialChart  x:Name="chart3"     DataSource="{Binding DataGRASA}"  CategoryValueMemberPath="Fecha"
+                         AxisForeground="White"
+                         PlotAreaBackground="Transparent"
+                         GridStroke="DarkGray" >
+                        <amq:SerialChart.Graphs>
+
+                            <amq:AreaGraph   ValueMemberPath="Grasa" Title="{Binding Path=Resources.IndiceDeGrasa_Text, Source={StaticResource Resource}}"  Brush="#80FACC2E" />
+                        </amq:SerialChart.Graphs>
+                    </amq:SerialChart>
+                </Grid>
+            </controls:PivotItem>
+           
+        </controls:Pivot>
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+    
+</phone:PhoneApplicationPage>

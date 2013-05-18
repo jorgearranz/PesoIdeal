@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Text" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="Aceptar_Text" xml:space="preserve">
+    <value>Accettare</value>
+  </data>
+  <data name="Altura_Text" xml:space="preserve">
+    <value>Altezza</value>
+  </data>
+  <data name="A_MenorNormal" xml:space="preserve">
+    <value>Inferiore al normale</value>
+  </data>
+  <data name="Back_Text" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="B_Normal" xml:space="preserve">
+    <value>Normale</value>
+  </data>
+  <data name="Cancelar_Text" xml:space="preserve">
+    <value>Annullare</value>
+  </data>
+  <data name="CheckApplications_Text" xml:space="preserve">
+    <value>Provare le mie altre apps e giochi</value>
+  </data>
+  <data name="CompleteInformacion" xml:space="preserve">
+    <value>Completate tutte le informazioni richieste, grazie</value>
+  </data>
+  <data name="C_Sobrepeso" xml:space="preserve">
+    <value>Sovrappeso</value>
+  </data>
+  <data name="DataSaved" xml:space="preserve">
+    <value>I dati sono stati salvati con successo</value>
+  </data>
+  <data name="DataUser_Text" xml:space="preserve">
+    <value>Dati utente</value>
+  </data>
+  <data name="Datos" xml:space="preserve">
+    <value>Dati</value>
+  </data>
+  <data name="Detalles_Text" xml:space="preserve">
+    <value>Dettagli</value>
+  </data>
+  <data name="D_ObesidadTipo1" xml:space="preserve">
+    <value>Obesità di tipo 1</value>
+  </data>
+  <data name="Edad_Text" xml:space="preserve">
+    <value>Età</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="EditarUserNoSelected" xml:space="preserve">
+    <value>Per modificare un record prima selezionare dalla lista</value>
+  </data>
+  <data name="EliminarCaptionText" xml:space="preserve">
+    <value>Elimina record</value>
+  </data>
+  <data name="EliminarMessageBoxText" xml:space="preserve">
+    <value>Fare clic su OK per eliminare il record</value>
+  </data>
+  <data name="EliminarNoSelected" xml:space="preserve">
+    <value>Per rimuovere una voce selezionarla prima</value>
+  </data>
+  <data name="ExistingUser_Text" xml:space="preserve">
+    <value>Utente esistente</value>
+  </data>
+  <data name="Exit_Ques" xml:space="preserve">
+    <value>Sei sicuro di voler uscire?</value>
+  </data>
+  <data name="Exit_Text" xml:space="preserve">
+    <value>lasciare</value>
+  </data>
+  <data name="E_ObesidadTipo2" xml:space="preserve">
+    <value>Obesità di tipo 2</value>
+  </data>
+  <data name="Fecha_Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="F_ObesidadTipo3" xml:space="preserve">
+    <value>Obesità di tipo 3, estrema</value>
+  </data>
+  <data name="Genero_Text" xml:space="preserve">
+    <value>Genere</value>
+  </data>
+  <data name="Hombre_Text" xml:space="preserve">
+    <value>Maschio</value>
+  </data>
+  <data name="Home_Text" xml:space="preserve">
+    <value>Iniziazione</value>
+  </data>
+  <data name="IMC_Text" xml:space="preserve">
+    <value>IMC</value>
+  </data>
+  <data name="IndiceActividad_Text" xml:space="preserve">
+    <value>Indice di attività</value>
+  </data>
+  <data name="IndiceDeGrasa_Text" xml:space="preserve">
+    <value>Indice di grasso</value>
+  </data>
+  <data name="Indice_Actividadfisicaligera" xml:space="preserve">
+    <value>Lieve l'attività fisica</value>
+  </data>
+  <data name="Indice_ActividadfisicaMedia" xml:space="preserve">
+    <value>Mezzo di attività fisica</value>
+  </data>
+  <data name="Indice_Personaextremadamenteactiva" xml:space="preserve">
+    <value>Persona estremamente attiva</value>
+  </data>
+  <data name="Indice_Personamuyactiva" xml:space="preserve">
+    <value>Molto attivo</value>
+  </data>
+  <data name="Indice_PersonaSedentaria" xml:space="preserve">
+    <value>Sedentario</value>
+  </data>
+  <data name="kcaldia_Text" xml:space="preserve">
+    <value>Kcal/dia raccomandato</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>dati forniti da questo programma sono puramente indicativi e in nessun caso essere presa in considerazione senza consultare un medico</value>
+  </data>
+  <data name="Mujer_Text" xml:space="preserve">
+    <value>femmina</value>
+  </data>
+  <data name="NewUser_Text" xml:space="preserve">
+    <value>Nuovo utente</value>
+  </data>
+  <data name="Or_Text" xml:space="preserve">
+    <value>Masterizzare dati su un altro utente</value>
+  </data>
+  <data name="PesoIdeal_Text" xml:space="preserve">
+    <value>Peso Ideale</value>
+  </data>
+  <data name="Peso_Text" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="Rate_Text" xml:space="preserve">
+    <value>Tasso</value>
+  </data>
+  <data name="Resultados_Text" xml:space="preserve">
+    <value>Risultati</value>
+  </data>
+  <data name="SaveData_Text" xml:space="preserve">
+    <value>Registra a ...</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="TasaMetabolicaP1_Text" xml:space="preserve">
+    <value>Ie kcal/giorno raccomandato per i dati forniti dall'utente.</value>
+  </data>
+  <data name="TasaMetabolica_Text" xml:space="preserve">
+    <value>Tasso metabolico</value>
+  </data>
+  <data name="TipoPeso_Text" xml:space="preserve">
+    <value>Tipo de peso</value>
+  </data>
+  <data name="TuPesoIdeal_Text" xml:space="preserve">
+    <value>Il tuo peso ideale</value>
+  </data>
+  <data name="UsersUpdate_Text" xml:space="preserve">
+    <value>Modifica  Uttente</value>
+  </data>
+  <data name="Users_Text" xml:space="preserve">
+    <value>Utenti</value>
+  </data>
+  <data name="VerGraficos" xml:space="preserve">
+    <value>Per visualizzare la grafica accendere il telefono</value>
+  </data>
+  <data name="loadData_Text" xml:space="preserve">
+    <value>Caricare dati più recenti da un utente</value>
+  </data>
+  <data name="NoDataAviable" xml:space="preserve">
+    <value>No data</value>
+  </data>
+  <data name="PesoIdealMaximo_Text" xml:space="preserve">
+    <value>Peso massimo per la tua altezza</value>
+  </data>
+  <data name="PesoIdealMinimo_Text" xml:space="preserve">
+    <value>Peso minimo per la tua altezza</value>
+  </data>
+  <data name="Add_Text" xml:space="preserve">
+    <value>Addizionare</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>Ricorda che questi dati sono approssimativi, e che il peso ideale varia a seconda della aspetto della persona e consultare sempre un dottore per qualsiasi domanda.</value>
+  </data>
+</root>

@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Text" xml:space="preserve">
+    <value>επιλογές</value>
+  </data>
+  <data name="Aceptar_Text" xml:space="preserve">
+    <value>αποδέχομαι</value>
+  </data>
+  <data name="Altura_Text" xml:space="preserve">
+    <value>ύψος</value>
+  </data>
+  <data name="A_MenorNormal" xml:space="preserve">
+    <value>Κάτω από το κανονικό</value>
+  </data>
+  <data name="Back_Text" xml:space="preserve">
+    <value>απόδοση</value>
+  </data>
+  <data name="B_Normal" xml:space="preserve">
+    <value>κανονικός</value>
+  </data>
+  <data name="Cancelar_Text" xml:space="preserve">
+    <value>ακυρώσει</value>
+  </data>
+  <data name="CheckApplications_Text" xml:space="preserve">
+    <value>Δοκιμάστε άλλες εφαρμογές</value>
+  </data>
+  <data name="CompleteInformacion" xml:space="preserve">
+    <value>Συμπληρώστε όλες τις πληροφορίες που ζητούνται, χάρη</value>
+  </data>
+  <data name="C_Sobrepeso" xml:space="preserve">
+    <value>υπέρβαρος</value>
+  </data>
+  <data name="DataSaved" xml:space="preserve">
+    <value>Τα δεδομένα αποθηκεύονται σωστά</value>
+  </data>
+  <data name="DataUser_Text" xml:space="preserve">
+    <value>δεδομένων χρήστη</value>
+  </data>
+  <data name="Datos" xml:space="preserve">
+    <value>δεδομένα</value>
+  </data>
+  <data name="Detalles_Text" xml:space="preserve">
+    <value>λεπτομέρειες</value>
+  </data>
+  <data name="D_ObesidadTipo1" xml:space="preserve">
+    <value>Η παχυσαρκία τύπου 1</value>
+  </data>
+  <data name="Edad_Text" xml:space="preserve">
+    <value>ηλικία</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>επεξεργαστείτε</value>
+  </data>
+  <data name="EditarUserNoSelected" xml:space="preserve">
+    <value>Για να επεξεργαστείτε ένα αρχείο πρώτα να την επιλέξετε από τη λίστα</value>
+  </data>
+  <data name="EliminarCaptionText" xml:space="preserve">
+    <value>Διαγραφή εγγραφής</value>
+  </data>
+  <data name="EliminarMessageBoxText" xml:space="preserve">
+    <value>Πατήστε OK για να διαγράψετε την εγγραφή</value>
+  </data>
+  <data name="EliminarNoSelected" xml:space="preserve">
+    <value>Για να διαγράψετε μια εγγραφή πρώτα να την επιλέξετε</value>
+  </data>
+  <data name="ExistingUser_Text" xml:space="preserve">
+    <value>Τα υπάρχοντα χρήστη</value>
+  </data>
+  <data name="Exit_Ques" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να τερματίσετε;</value>
+  </data>
+  <data name="Exit_Text" xml:space="preserve">
+    <value>φύγω</value>
+  </data>
+  <data name="E_ObesidadTipo2" xml:space="preserve">
+    <value>Η παχυσαρκία τύπου 2</value>
+  </data>
+  <data name="Fecha_Text" xml:space="preserve">
+    <value>ημερομηνία</value>
+  </data>
+  <data name="F_ObesidadTipo3" xml:space="preserve">
+    <value>Η παχυσαρκία τύπου 3</value>
+  </data>
+  <data name="Genero_Text" xml:space="preserve">
+    <value>ΔΥΟ ΦΥΛΩΝ</value>
+  </data>
+  <data name="Hombre_Text" xml:space="preserve">
+    <value>άνθρωπος</value>
+  </data>
+  <data name="Home_Text" xml:space="preserve">
+    <value>μύηση</value>
+  </data>
+  <data name="IMC_Text" xml:space="preserve">
+    <value>IMC</value>
+  </data>
+  <data name="IndiceActividad_Text" xml:space="preserve">
+    <value>Δείκτης Δραστηριότητας</value>
+  </data>
+  <data name="IndiceDeGrasa_Text" xml:space="preserve">
+    <value>Λίπος Δείκτης</value>
+  </data>
+  <data name="Indice_Actividadfisicaligera" xml:space="preserve">
+    <value>Φως σωματική δραστηριότητα</value>
+  </data>
+  <data name="Indice_ActividadfisicaMedia" xml:space="preserve">
+    <value>Φυσική Δραστηριότητα Media</value>
+  </data>
+  <data name="Indice_Personaextremadamenteactiva" xml:space="preserve">
+    <value>Εξαιρετικά δραστήριο άτομο</value>
+  </data>
+  <data name="Indice_Personamuyactiva" xml:space="preserve">
+    <value>Πολύ δραστήρια</value>
+  </data>
+  <data name="Indice_PersonaSedentaria" xml:space="preserve">
+    <value>καθιστικός</value>
+  </data>
+  <data name="kcaldia_Text" xml:space="preserve">
+    <value>Kcal / ημέρα Συνιστώμενη</value>
+  </data>
+  <data name="loadData_Text" xml:space="preserve">
+    <value>Φόρτωση τελευταία στοιχεία από το χρήστη</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Οι πληροφορίες που παρέχονται από το πρόγραμμα αυτό είναι μόνο ενδεικτικές και σε καμία περίπτωση δεν πρέπει να λαμβάνονται υπόψη, χωρίς διαβούλευση με ένα γιατρό.</value>
+  </data>
+  <data name="Mujer_Text" xml:space="preserve">
+    <value>γυναίκα</value>
+  </data>
+  <data name="NewUser_Text" xml:space="preserve">
+    <value>Νέος Χρήστης</value>
+  </data>
+  <data name="NoDataAviable" xml:space="preserve">
+    <value>δεν υπάρχουν στοιχεία</value>
+  </data>
+  <data name="Or_Text" xml:space="preserve">
+    <value>Κάψτε τα δεδομένα σε έναν άλλο χρήστη</value>
+  </data>
+  <data name="PesoIdeal_Text" xml:space="preserve">
+    <value>ιδανικό βάρος</value>
+  </data>
+  <data name="Peso_Text" xml:space="preserve">
+    <value>βάρος</value>
+  </data>
+  <data name="Rate_Text" xml:space="preserve">
+    <value>εκτίμησης</value>
+  </data>
+  <data name="Resultados_Text" xml:space="preserve">
+    <value>Αποτελέσματα</value>
+  </data>
+  <data name="SaveData_Text" xml:space="preserve">
+    <value>Εγγραφή σε ...</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>ρεκόρ</value>
+  </data>
+  <data name="TasaMetabolicaP1_Text" xml:space="preserve">
+    <value>Δηλαδή kcal / ημέρα συνιστάται για τα στοιχεία που παρέχονται από το χρήστη.</value>
+  </data>
+  <data name="TasaMetabolica_Text" xml:space="preserve">
+    <value>μεταβολικό ρυθμό</value>
+  </data>
+  <data name="TipoPeso_Text" xml:space="preserve">
+    <value>Τύπος βάρος</value>
+  </data>
+  <data name="TuPesoIdeal_Text" xml:space="preserve">
+    <value>Το ιδανικό βάρος σας</value>
+  </data>
+  <data name="UsersUpdate_Text" xml:space="preserve">
+    <value>Τροποποίηση χρήστη</value>
+  </data>
+  <data name="Users_Text" xml:space="preserve">
+    <value>Χρήστες</value>
+  </data>
+  <data name="VerGraficos" xml:space="preserve">
+    <value>Για να δείτε τα γραφικά περιστρέψτε το τηλέφωνο</value>
+  </data>
+  <data name="PesoIdealMaximo_Text" xml:space="preserve">
+    <value>Μέγιστο βάρος για το ύψος σας</value>
+  </data>
+  <data name="PesoIdealMinimo_Text" xml:space="preserve">
+    <value>Ελάχιστη βάρος για σας ψηλά</value>
+  </data>
+  <data name="Add_Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>Να θυμάστε ότι τα στοιχεία αυτά είναι κατά προσέγγιση, και ότι το ιδανικό βάρος διαφέρει ανάλογα με τη χροιά του προσώπου και πάντα συμβουλευτείτε ένα γιατρό με οποιεσδήποτε ερωτήσεις.</value>
+  </data>
+</root>
